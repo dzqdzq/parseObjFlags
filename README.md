@@ -5,7 +5,7 @@ When running the cocos creator project, I often want to know a cocos object. Unf
 ## Install
 
 ```bash
-npm install parseObjFlags -g
+npm i parse-objflags -g
 ```
 
 ## Usage
@@ -15,4 +15,5 @@ npm install parseObjFlags -g
 parseObjFlags <id>
 ```
 
-example
+## Example
+![Alt text](image.png)

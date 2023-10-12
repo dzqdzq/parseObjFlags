@@ -1,6 +1,6 @@
 {
   "name": "parse-objflags",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "parse cocos creator _objFlags",
   "author": "dzqdzq",
   "main": "parse.js",
@@ -17,7 +17,8 @@
     "url": "https://github.com/dzqdzq/parseObjFlags.git"
   },
   "bin": {
-    "parseObjFlags": "bin/cmd.js"
+    "parseObjFlags": "bin/cmd.js",
+    "parse-objflags": "bin/cmd.js"
   },
   "license": "MIT"
 }
