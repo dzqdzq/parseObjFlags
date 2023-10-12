@@ -36,7 +36,7 @@ var PersistentMask = ~(ToDestroy | Dirty | Destroying | DontDestroy | Deactivati
 
 tables[-4192741] = 'PersistentMask';
 
-function parse(n){
+export default function parse(n){
     if(n<0){
         return 'PersistentMask';
     }
@@ -49,4 +49,3 @@ function parse(n){
     });
     return ret.join(', ');
 }
-console.log(parse(process.argv[2]))
